@@ -16,7 +16,14 @@
 html,body{
     height: 100%;
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: hidden;     
+}
+
+body{
+    background-image: url(../assets/Foto\ Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;     
 }
 
 header{
@@ -35,7 +42,7 @@ header{
 }
 
 .menu a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
@@ -56,31 +63,18 @@ section.sobre{
     background-color: rgb(207, 36, 17);
 }
 
-
-
-.social-media{
-    position: absolute;
-    right: 510px;
-    top: 200px;
-}
-
-.social-media img{
-    display: block;
-    width: 40px;
-    margin: 20px 0;
-}
-
 .texto-sobre{
     margin-top: 100px;    
 }
 
 .texto-sobre h1{
     font-size: 50px;
+    color: white;
 }
 
 .texto-sobre p{
     margin: 30px 0;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     max-width: 800px;
